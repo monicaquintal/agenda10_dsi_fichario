@@ -8,38 +8,39 @@ PSEUDOCÓDIGO
 
 Programa monicaQuintal_fichario_agenda10_dsi
 
-Declare
-matrizA como conjunto [1..10][1..10] de inteiro
-matrizB como conjunto [1..10][1..10] de inteiro
-matrizC como conjunto [1..10][1..10] de inteiro
-linha, coluna como inteiro
-
-Início
-Escreva ("inserindo os dados na Matriz A")
-Para linha = 1 Até 10 Faça
-   Para coluna = 1 até 10 Faça
-	Escreva ("Entre com um número")
-	Escreva ("linha", linha)
-	Escreva ("coluna", coluna)
-	Leia a[linha,coluna]
-   Fim-Para
-Fim-Para
-
-Escreva ("inserindo os dados na Matriz B")
-Para linha = 1 Até 10 Faça
-   Para coluna = 1 até 10 Faça
-	Escreva ("Entre com um número")
-	Escreva ("linha", linha)
-	Escreva ("coluna", coluna)
-	Leia a[linha,coluna]
-   Fim-Para
-Fim-Para
-
-Escreva("calculando Matriz C")
-Para linha = 1 Até 10 Faça
-   Para coluna = 1 até 10 Faça
-	Escreva ("linha", linha)
-	Escreva ("coluna", coluna)
-	Escreva ("valor calculado", c[linha][coluna)
-   Fim-Para
-Fim-Para
+Declare<br>
+matrizA como conjunto [1..10][1..10] de inteiro<br>
+matrizB como conjunto [1..10][1..10] de inteiro<br>
+matrizC como conjunto [1..10][1..10] de inteiro<br>
+linha, coluna como inteiro<br>
+<br>
+Início<br>
+Escreva ("inserindo os dados na Matriz A")<br>
+Para linha = 1 Até 10 Faça<br>
+   Para coluna = 1 até 10 Faça<br>
+	Escreva ("Entre com um número")<br>
+	Escreva ("linha", linha)<br>
+	Escreva ("coluna", coluna)<br>
+	Leia a[linha,coluna]<br>
+   Fim-Para<br>
+Fim-Para<br>
+<br>
+Escreva ("inserindo os dados na Matriz B")<br>
+Para linha = 1 Até 10 Faça<br>
+   Para coluna = 1 até 10 Faça<br>
+	Escreva ("Entre com um número")<br>
+	Escreva ("linha", linha)<br>
+	Escreva ("coluna", coluna)<br>
+	Leia a[linha,coluna]<br>
+   Fim-Para<br>
+Fim-Para<br>
+<br>
+Escreva("calculando Matriz C")<br>
+Para linha = 1 Até 10 Faça<br>
+   Para coluna = 1 até 10 Faça<br>
+	Escreva ("linha", linha)<br>
+	Escreva ("coluna", coluna)<br>
+	Escreva ("valor calculado", c[linha][coluna)<br>
+   Fim-Para<br>
+Fim-Para<br>
+<br>
